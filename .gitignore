@@ -1,0 +1,4 @@
+features/*
+video_samples/*
+audio_samples/*
+__pycache__/*
