@@ -1,3 +1,12 @@
+# Deep Movie Trailer
+
+Download model from [VGG Checkpoint](https://storage.googleapis.com/audioset/vggish_model.ckpt) and use 
+python vggish_extract_features.py --input_path /path/to/input/files \
+                                    --output_path /path/to/output/files \
+                                    --checkpoint /path/to/model/checkpoint \
+                                    --pca_params /path/to/pca/params
+Go to [Deep Movie Trailer Main Repo](https://github.com/ducminhnguyen/deep-movie-trailer) to get instruction on how to get the audio out of the video for LIRIS dataset.
+
 # Models for AudioSet: A Large Scale Dataset of Audio Events
 
 This repository provides models and supporting code associated with
